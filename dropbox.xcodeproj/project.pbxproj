@@ -13,6 +13,14 @@
 		0C8CD89519E792D8001E5790 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8CD89419E792D8001E5790 /* Images.xcassets */; };
 		0C8CD89819E792D8001E5790 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C8CD89619E792D8001E5790 /* LaunchScreen.xib */; };
 		0C8CD8A419E792D8001E5790 /* dropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CD8A319E792D8001E5790 /* dropboxTests.swift */; };
+		0C8CD8B019E7B161001E5790 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CD8AF19E7B161001E5790 /* DoneViewController.swift */; };
+		0C8CD8B219E82877001E5790 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CD8B119E82877001E5790 /* SettingsViewController.swift */; };
+		0C8CD8B419E82D9E001E5790 /* TroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CD8B319E82D9E001E5790 /* TroubleViewController.swift */; };
+		0CA0D4BB19E89F61009D3807 /* SignInSegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0D4BA19E89F61009D3807 /* SignInSegueViewController.swift */; };
+		0CA0D4BD19E8A3F3009D3807 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0D4BC19E8A3F2009D3807 /* CreateAccountRootViewController.swift */; };
+		0CA0D4BF19E8A599009D3807 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0D4BE19E8A599009D3807 /* SignInViewController.swift */; };
+		0CA0D4C119E8A8B7009D3807 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0D4C019E8A8B7009D3807 /* CreateAccountViewController.swift */; };
+		0CB94B8419EB819F0054734A /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB94B8319EB819F0054734A /* ExistingPhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		0C8CD89D19E792D8001E5790 /* dropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8CD8A219E792D8001E5790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C8CD8A319E792D8001E5790 /* dropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropboxTests.swift; sourceTree = "<group>"; };
+		0C8CD8AF19E7B161001E5790 /* DoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
+		0C8CD8B119E82877001E5790 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0C8CD8B319E82D9E001E5790 /* TroubleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleViewController.swift; sourceTree = "<group>"; };
+		0CA0D4BA19E89F61009D3807 /* SignInSegueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInSegueViewController.swift; sourceTree = "<group>"; };
+		0CA0D4BC19E8A3F2009D3807 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		0CA0D4BE19E8A599009D3807 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0CA0D4C019E8A8B7009D3807 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		0CB94B8319EB819F0054734A /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,7 @@
 		0C8CD87F19E792D8001E5790 = {
 			isa = PBXGroup;
 			children = (
+				0C8CD8AF19E7B161001E5790 /* DoneViewController.swift */,
 				0C8CD88A19E792D8001E5790 /* dropbox */,
 				0C8CD8A019E792D8001E5790 /* dropboxTests */,
 				0C8CD88919E792D8001E5790 /* Products */,
@@ -80,6 +97,13 @@
 				0C8CD88D19E792D8001E5790 /* AppDelegate.swift */,
 				0C8CD88F19E792D8001E5790 /* ViewController.swift */,
 				0C8CD89119E792D8001E5790 /* Main.storyboard */,
+				0CB94B8319EB819F0054734A /* ExistingPhotosViewController.swift */,
+				0CA0D4C019E8A8B7009D3807 /* CreateAccountViewController.swift */,
+				0CA0D4BE19E8A599009D3807 /* SignInViewController.swift */,
+				0CA0D4BC19E8A3F2009D3807 /* CreateAccountRootViewController.swift */,
+				0CA0D4BA19E89F61009D3807 /* SignInSegueViewController.swift */,
+				0C8CD8B319E82D9E001E5790 /* TroubleViewController.swift */,
+				0C8CD8B119E82877001E5790 /* SettingsViewController.swift */,
 				0C8CD89419E792D8001E5790 /* Images.xcassets */,
 				0C8CD89619E792D8001E5790 /* LaunchScreen.xib */,
 				0C8CD88B19E792D8001E5790 /* Supporting Files */,
@@ -161,6 +185,7 @@
 				TargetAttributes = {
 					0C8CD88719E792D8001E5790 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = UWX4368CMH;
 					};
 					0C8CD89C19E792D8001E5790 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -212,8 +237,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA0D4BD19E8A3F3009D3807 /* CreateAccountRootViewController.swift in Sources */,
+				0CA0D4BB19E89F61009D3807 /* SignInSegueViewController.swift in Sources */,
 				0C8CD89019E792D8001E5790 /* ViewController.swift in Sources */,
+				0C8CD8B019E7B161001E5790 /* DoneViewController.swift in Sources */,
+				0CA0D4BF19E8A599009D3807 /* SignInViewController.swift in Sources */,
 				0C8CD88E19E792D8001E5790 /* AppDelegate.swift in Sources */,
+				0CB94B8419EB819F0054734A /* ExistingPhotosViewController.swift in Sources */,
+				0CA0D4C119E8A8B7009D3807 /* CreateAccountViewController.swift in Sources */,
+				0C8CD8B219E82877001E5790 /* SettingsViewController.swift in Sources */,
+				0C8CD8B419E82D9E001E5790 /* TroubleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +369,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = dropbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +384,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = dropbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +448,7 @@
 				0C8CD8A919E792D8001E5790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C8CD8AA19E792D8001E5790 /* Build configuration list for PBXNativeTarget "dropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +457,7 @@
 				0C8CD8AC19E792D8001E5790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
