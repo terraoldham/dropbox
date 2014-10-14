@@ -21,6 +21,7 @@
 		0CA0D4BF19E8A599009D3807 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0D4BE19E8A599009D3807 /* SignInViewController.swift */; };
 		0CA0D4C119E8A8B7009D3807 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0D4C019E8A8B7009D3807 /* CreateAccountViewController.swift */; };
 		0CB94B8419EB819F0054734A /* ExistingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB94B8319EB819F0054734A /* ExistingPhotosViewController.swift */; };
+		0CB94B8619EB94900054734A /* TypingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB94B8519EB94900054734A /* TypingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		0CA0D4BE19E8A599009D3807 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		0CA0D4C019E8A8B7009D3807 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		0CB94B8319EB819F0054734A /* ExistingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPhotosViewController.swift; sourceTree = "<group>"; };
+		0CB94B8519EB94900054734A /* TypingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				0C8CD88D19E792D8001E5790 /* AppDelegate.swift */,
 				0C8CD88F19E792D8001E5790 /* ViewController.swift */,
 				0C8CD89119E792D8001E5790 /* Main.storyboard */,
+				0CB94B8519EB94900054734A /* TypingViewController.swift */,
 				0CB94B8319EB819F0054734A /* ExistingPhotosViewController.swift */,
 				0CA0D4C019E8A8B7009D3807 /* CreateAccountViewController.swift */,
 				0CA0D4BE19E8A599009D3807 /* SignInViewController.swift */,
@@ -240,6 +243,7 @@
 				0CA0D4BD19E8A3F3009D3807 /* CreateAccountRootViewController.swift in Sources */,
 				0CA0D4BB19E89F61009D3807 /* SignInSegueViewController.swift in Sources */,
 				0C8CD89019E792D8001E5790 /* ViewController.swift in Sources */,
+				0CB94B8619EB94900054734A /* TypingViewController.swift in Sources */,
 				0C8CD8B019E7B161001E5790 /* DoneViewController.swift in Sources */,
 				0CA0D4BF19E8A599009D3807 /* SignInViewController.swift in Sources */,
 				0C8CD88E19E792D8001E5790 /* AppDelegate.swift in Sources */,
